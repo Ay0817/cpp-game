@@ -1,0 +1,16 @@
+{
+  "Font": [
+    {
+      "name": "Zen Maru Gothic Medium",
+      "path": "Assets/Fonts/ZenMaruGothic-Medium.ttf",
+      "size": 32,
+      "thick": 3
+    },
+    {
+      "name": "Roboto Medium",
+      "path": "Assets/Fonts/Roboto-Medium.ttf",
+      "size": 32,
+      "thick": 3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+今後追加したい機能 ~GameEditor
+・ノードの名前変更
+・子ノードを追加するときにオブジェクトの情報を入力必須に
+・Inspector 実装
+・シリアライズ化
+
+**追加時の問題**
+・ノードの名前変更
+	GameObjectManagerへ最初登録したときと id が違うため再登録が必要になる。
+
+・子ノードを追加時の情報入力必須
+	どのような画面にするかUIの案が決まっていない。
+
+・シリアライズ化
+	実装方法、知識不足のため調べる (glazeとか？)
+
+**今後の課題**
+・GameEditor と Game2D(メインWindow側)の関係性
+・GameEditor 外における GameObject 生成の有無
+
+
+今後追加したい機能 ~GameLib2D~
+
+・Behaviour が持つ機能の実装を終える (OnEnable,OnDisable,Invoke等)
+・UI 関連
+・Scene 関連
+・Animation
+・Camera
+・Canvas
+・Text
+
+
+Inspector
+
+Node が選択される → インスペクター部分に GameObject が持つ値 を表示させる
+
+1. 現在の値を取得
+2. Input,UI,を表示
+3. 値を更新
+
+
+1-1 前フレームと同じ Node なら値の取得をスキップ
+
+3-1 前フレームと同じ値なら 値の更新を行わない
