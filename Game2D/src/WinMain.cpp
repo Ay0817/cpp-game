@@ -11,7 +11,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	app.Run();
 
-	// test
+	// test dayo
 
 	return 0;
 }
