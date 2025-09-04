@@ -4,8 +4,8 @@
 #include "../GameLib2D/ImGui/imgui_impl_dx11.h"
 #include "../GameLib2D/ImGui/imgui_impl_win32.h"
 
-#include "FrameRate.hpp"
-#include "Inspector.hpp"
+#include "../include/FrameRate.hpp"
+#include "../include/Inspector.hpp"
 
 void FrameRate::Draw() const {
 	auto x = ImGui::GetWindowContentRegionMax().x - ImGui::CalcTextSize("FPS: 00.0").x;

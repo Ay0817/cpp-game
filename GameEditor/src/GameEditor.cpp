@@ -2,9 +2,9 @@
 #include <GameLib2D.hpp>
 #include <ImGuis.hpp>
 
-#include "GameEditor.hpp"
-#include "WindowProcess.hpp"
-#include "NodeObject.hpp"
+#include "../include/GameEditor.hpp"
+#include "../include/WindowProcess.hpp"
+#include "../include/NodeObject.hpp"
 
 bool GameEditor::Init() {
 	IMGUI_CHECKVERSION();

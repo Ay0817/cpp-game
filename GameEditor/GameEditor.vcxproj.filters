@@ -15,58 +15,58 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameEditor.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="WindowProcess.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="NodeObject.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="Node.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="AddObjectNode.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="FrameRate.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="Hierarchy.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="Inspector.hpp">
-      <Filter>include</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="GameEditor.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="WindowProcess.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="NodeObject.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Node.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="AddObjectNode.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="FrameRate.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Inspector.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="Hierarchy.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="memo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AddObjectNode.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FrameRate.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameEditor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hierarchy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inspector.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Node.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeObject.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WindowProcess.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AddObjectNode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameRate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hierarchy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inspector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowProcess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

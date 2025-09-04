@@ -5,8 +5,8 @@
 #include "../GameLib2D/Internal.hpp"
 #include "../GameLib2D/GameObject.hpp"
 
-#include "Hierarchy.hpp"
-#include "NodeObject.hpp"
+#include "../include/Hierarchy.hpp"
+#include "../include/NodeObject.hpp"
 
 Hierarchy::Hierarchy() : rate(1.5f), size(250.f, 400.f), name(internal::string::slicing_for_space(typeid(Hierarchy).name())) {
 }

@@ -4,7 +4,7 @@
 #include "../GameLib2D/Transform.hpp"
 #include "../GameLib2D/Internal.hpp"
 
-#include "Inspector.hpp"
+#include "../include/Inspector.hpp"
 
 Inspector::Inspector() : rate(3.2f), name(internal::string::slicing_for_space(typeid(Inspector).name())), prevID(0), prevX(0.f), prevY(0.f), prevScale(1.f), prevAngle(0.f) {
 	std::memset(x,     0, sizeof(x));

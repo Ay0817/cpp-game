@@ -136,27 +136,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddObjectNode.hpp" />
-    <ClInclude Include="FrameRate.hpp" />
-    <ClInclude Include="GameEditor.hpp" />
-    <ClInclude Include="Hierarchy.hpp" />
-    <ClInclude Include="Inspector.hpp" />
-    <ClInclude Include="Node.hpp" />
-    <ClInclude Include="NodeObject.hpp" />
-    <ClInclude Include="WindowProcess.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AddObjectNode.cpp" />
-    <ClCompile Include="FrameRate.cpp" />
-    <ClCompile Include="GameEditor.cpp" />
-    <ClCompile Include="Hierarchy.cpp" />
-    <ClCompile Include="Inspector.cpp" />
-    <ClCompile Include="Node.cpp" />
-    <ClCompile Include="NodeObject.cpp" />
-    <ClCompile Include="WindowProcess.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="memo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AddObjectNode.hpp" />
+    <ClInclude Include="include\FrameRate.hpp" />
+    <ClInclude Include="include\GameEditor.hpp" />
+    <ClInclude Include="include\Hierarchy.hpp" />
+    <ClInclude Include="include\Inspector.hpp" />
+    <ClInclude Include="include\Node.hpp" />
+    <ClInclude Include="include\NodeObject.hpp" />
+    <ClInclude Include="include\WindowProcess.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AddObjectNode.cpp" />
+    <ClCompile Include="src\FrameRate.cpp" />
+    <ClCompile Include="src\GameEditor.cpp" />
+    <ClCompile Include="src\Hierarchy.cpp" />
+    <ClCompile Include="src\Inspector.cpp" />
+    <ClCompile Include="src\Node.cpp" />
+    <ClCompile Include="src\NodeObject.cpp" />
+    <ClCompile Include="src\WindowProcess.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

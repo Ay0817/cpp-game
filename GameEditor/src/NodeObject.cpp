@@ -4,7 +4,7 @@
 #include "../GameLib2D/Transform.hpp"
 #include "../GameLib2D/Logger.hpp"
 
-#include "NodeObject.hpp"
+#include "../include/NodeObject.hpp"
 
 NodeObject::NodeObject(const std::shared_ptr<GameObject>& obj) : Node(obj->GetName()), object(obj)
 {}

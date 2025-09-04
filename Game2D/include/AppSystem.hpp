@@ -4,7 +4,7 @@
 #include <memory>
 #include <string>
 
-#include "GameEditor.hpp"
+#include "../GameEditor/include/GameEditor.hpp"
 
 /// @brief GameEditor を使用するのを前提とした基幹クラス
 class AppSystem final {

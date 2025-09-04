@@ -3,8 +3,8 @@
 #include "../GameLib2D/Logger.hpp"
 #include "../GameLib2D/GameObject.hpp"
 
-#include "AddObjectNode.hpp"
-#include "NodeObject.hpp"
+#include "../include/AddObjectNode.hpp"
+#include "../include/NodeObject.hpp"
 
 AddObjectNode::AddObjectNode(const std::string& name, const std::shared_ptr<Hierarchy>& hierarchy)
 	: Node(name), isActive(false), hierarchy(hierarchy) {
