@@ -4,7 +4,7 @@
 #include <functional>
 #include <vector>
 
-/// @brief 任意の引数を受け取る関数を登録・削除し、まとめて実行できるイベント管理クラス
+/// @brief 任意の引数を受け取る関数を登録・削除し、まとめて実行できるイベント管理クラス。
 /// @tparam ...Args 
 template <typename... Args>
 class Action final {
