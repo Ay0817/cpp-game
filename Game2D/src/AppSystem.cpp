@@ -39,14 +39,6 @@ bool AppSystem::Boot() const {
 	TimeManager::Init();
 	FpsController::GetInstance().SetTargetFPS(TARGET_FPS);
 
-	if (!Init()) {
-		return false;
-	}
-
-	return true;
-}
-
-bool AppSystem::Init() const {
 	Asset::FontLoader::Load("Assets/Jsons/Font.json");
 	Asset::SoundLoader::Load("Assets/Jsons/Sound.json");
 	Asset::TextureLoader::Load("Assets/Jsons/Texture.json");

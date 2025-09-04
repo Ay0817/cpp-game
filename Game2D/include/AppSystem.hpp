@@ -13,10 +13,6 @@ private:
 	const float TARGET_FPS = 60.f;           // 目標フレームレート値
 
 	std::unique_ptr<GameEditor> gameEditor; // ゲームエディター
-
-	/// @brief 初期化処理
-	/// @return false なら失敗
-	bool Init() const;
 public:
 	/// @brief コンストラクタ
 	AppSystem();
