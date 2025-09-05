@@ -14,16 +14,13 @@ class GameObject;
 
 namespace SceneManagement {
 	/// @brief シーンの基底クラス。 
-/// @brief 新規シーンはこのクラスを継承します。
+    /// @brief 新規シーンはこのクラスを継承します。
 	class SceneBase {
 	private:
 		Scene scene;
 	protected:
 		std::vector<std::shared_ptr<GameObject>> objects;
 	public:
-		/// @brief コンストラクタ
-		NODISCARD_CPP20 constexpr SceneBase() noexcept = default;
-
 		/// @brief コンストラクタ
 		/// @param sceneName シーン名
 		NODISCARD_CPP20 SceneBase(const Scene& scene);
