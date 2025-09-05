@@ -18,7 +18,7 @@ namespace SceneManagement {
 			Unloading
 		};
 	private:
-		int handle;
+		int handle = -1;
 	public:
 		std::string name;
 
