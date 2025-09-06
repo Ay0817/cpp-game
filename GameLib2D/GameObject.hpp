@@ -5,6 +5,7 @@
 #include <vector>
 #include <unordered_map>
 #include <typeindex>
+#include <glaze/glaze.hpp>
 
 #include "Object.hpp"
 #include "ComponentConcept.hpp"
@@ -172,6 +173,25 @@ public:
 	/// @brief 
 	/// @param name 
 	NODISCARD static void Destroy(const std::string& name);
+
+	/// @brief 公開
+	friend struct glz::meta<GameObject>;
+};
+
+/// @brief メタ情報を定義
+template<>
+struct glz::meta<GameObject> {
+	static constexpr auto value = object(
+		"name"    , &GameObject::name,
+		"id"      , &GameObject::instanceID,
+		"active"  , &GameObject::active,
+		"children", &GameObject::children
+	);
+};
+
+/// @brief ルート
+struct GameObjectRoot {
+	std::vector<std::shared_ptr<GameObject>> gameObjects;
 };
 
 #endif 
